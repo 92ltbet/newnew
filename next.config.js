@@ -12,10 +12,7 @@ const nextConfig = {
     ]
   },
   // Tắt source maps trong production để giảm kích thước
-  productionBrowserSourceMaps: false,
-  // Cấu hình để tối ưu cho Cloudflare Pages
-  trailingSlash: false,
-  generateEtags: true,
+  productionBrowserSourceMaps: false
 };
 
 module.exports = nextConfig; 
